@@ -1,16 +1,16 @@
 <template>
     <div>
-        <table border="1">
+        <table>
             <th>
-                <td>Número</td>
-                <td>Título</td>
-                <td>Descrição</td>
-                <td>Data Abertura</td>
-                <td>Data Fechamento</td>
-                <td>Aberto por</td>
-                <td>Atendida por</td>
-                <td>Status</td>
-                <td><button>+</button></td>
+            <td>Número</td>
+            <td>Título</td>
+            <td>Descrição</td>
+            <td>Data Abertura</td>
+            <td>Data Fechamento</td>
+            <td>Aberto por</td>
+            <td>Atendida por</td>
+            <td>Status</td>
+            <td><button id="openCreateDemand" name="openCreateDemand" @click="">+</button></td>
             </th>
             <tr>
                 <td></td>
@@ -30,7 +30,9 @@
 <script>
 import axios from 'axios';
 
-    export default{
+export default {
+    methods: {
 
     }
+}
 </script>

@@ -26,9 +26,9 @@ export default {
     data(){
         return{
             singin: true,
-            singup: false,
+            singup: true,
             demand: true,
-            createDemand: false
+            createDemand: true
         }
     },
     components: {
@@ -36,17 +36,7 @@ export default {
         singup,
         demand,
         createDemand
-    },
-    // mounted(){
-    //     axios.post('/user',{
-    //         name: 'admin',
-    //         email: 'admin@admin.com',
-    //         password: 'admin'
-    //     }).then(function(response){
-    //         console.log(response);
-    //     })
-    // },
-    
+    },    
     methods: {
         
     }
@@ -88,4 +78,7 @@ label {
 .multiselect__tag {
     background: #198754;
 }
+
+
+
 </style>

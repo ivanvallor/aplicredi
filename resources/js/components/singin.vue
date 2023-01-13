@@ -16,7 +16,7 @@ import axios from 'axios';
 export default {
     methods: {
         clickSingin() {
-            axios.get('/user/{name}', {
+            axios.get('/user/{id}', {
                 name: 'name',
                 password: 'password'
             }).then(function (response) {
