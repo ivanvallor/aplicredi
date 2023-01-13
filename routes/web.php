@@ -23,6 +23,8 @@ Route::get('/user/{user}',function(\App\Models\User $user){
     return $user;
 });
 
+// Route::get('/user/{user}', [UserController::class, 'singin']);
+
 
 Route::get('/demand/{demand}', function(\App\Models\Demand $demand){
     return $demand;

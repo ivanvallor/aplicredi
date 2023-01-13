@@ -26,7 +26,7 @@ export default {
     data(){
         return{
             singin: true,
-            singup: true,
+            singup: false,
             demand: true,
             createDemand: false
         }
